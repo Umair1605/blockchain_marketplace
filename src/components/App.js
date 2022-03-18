@@ -16,7 +16,6 @@ function App() {
   const [marketcontract,setMarketContract] = useState();
   const [productCount,setPropertyCount] = useState("");
   const [products,setProduct] = useState([]);
-  const [loading,setLoading] = useState(false);
   const [mounted, setMounted] = useState(false)
 
   const loadWeb3 = async() =>{
